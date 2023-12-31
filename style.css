@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}          
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+}
+
+.two {
+    background-color: rgb(18, 18, 19);
+}
+
+.three {
+    background-color: rgb(255, 0, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three div {
+    font-size: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.four {
+    background-color: rgb(198, 18, 198);
+    position: relative;
+    margin-top: -100vh;
+}
+
+.container {
+    width: 1300px;
+    margin: 20px auto;
+}
+
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 34px;
+    color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.landing-container .img img {
+    width: 500px;
+    border-radius: 12px;
+}
+
+.landing-container h1 {
+    font-size: 70px;
+    color: #fff;
+    max-width: 700px;
+    transform: translateY(-200px);
+    opacity: 0;
+}
+
+.landing-container p {
+    color: #dcdcdc;
+    max-width: 700px;
+    margin: 20px 0 60px 0;
+    transform: translateY(-200px);
+    opacity: 0;
+}
+
+.landing-container button {
+    border: none;
+    background-color: #2f62f9;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
